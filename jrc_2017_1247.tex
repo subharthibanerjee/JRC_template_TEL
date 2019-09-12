@@ -1,0 +1,104 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%% asme2e.tex %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+t
+\documentclass[twocolumn,10pt]{asme2e}
+\special{papersize=8.5in,11in}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{capt-of}
+
+
+%%% Replace here with information related to your conference
+\confshortname{JRC 2019}
+\conffullname{the 2019 Joint Rail Conference \&\\
+              }
+
+\confdate{April 9-12}
+\confyear{2019}
+\confcity{Snowbird, UT}
+\confcountry{USA}
+
+.
+\papernum{JRC2019-1247}
+
+%%% You need to remove 'DRAFT: ' in the title for the final submitted version.
+\title{High Speed Train Wireless Communication: Handover Performance Analysis for Different Radio Access Technologies}
+
+%%% first author
+\author{Subharthi Banerjee\thanks{Address all correspondence to this author.}
+    \affiliation{
+	Advanced Telecommunciations Engineering Laboratory\\
+	Electrical \& Computer Engineering\\
+	University of Nebraska-Lincoln\\
+	Omaha, Nebraska 68182\\
+    Email: sbanerjee15@huskers.unl.edu
+    }	
+}
+
+%%% second author
+%%% remove the following entry for single author papers
+%%% add more entries for additional authors
+\author{Michael Hempel \\
+       {\tensfb Pejman Ghasemzadeh}\\
+	{\tensfb Naji Albakay}\\
+       {\tensfb Hamid Sharif}     
+    \affiliation{Department of Electrical \& Computer Engineering\\
+	University of Nebraska-Lincoln\\
+	Omaha, Nebraska, 68182\\
+    }
+}
+
+\begin{document}
+
+\maketitle    
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+{hello}
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{INTRODUCTION}
+
+ 
+\subsection*{SIMULATION MODEL}
+
+
+\begin{table}[t]
+\caption{DEFINITION OF THE PARAMETERS.}
+\begin{center}
+\label{tab:1}
+\begin{tabular}{c l }
+&  \\ % put some space after the caption
+\hline
+Parameter & Definition  \\
+\hline
+$P_d$ & Average power for the transmitted data \\
+$pl_i$ & Pathloss between antenna and BS, $i$   \\
+$A$ & Pathloss intercept  \\
+$\gamma$ & Pathloss exponent \\
+$f_D$ & Doppler shift  \\
+$L$ & Resolvable multipaths   \\
+$T_s$ & Effective symbol duration  \\
+$\sigma_l^2$ & average energy of channel coefficients   \\
+$J_0$ & zeroth-order Bessel function of first kind \\
+$sh_i$ & Log-normal shadow fading \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+ \subsection*{PERFORMANCE ANALYSIS}
+
+
+\subsubsection*{Handover Probability}
+
+
+
+
+\section*{ACKNOWLEDGEMENT}
+This study is being conducted at the University of Nebraska-Lincoln by the research faculty and students at the Advanced Telecommunications Engineering Laboratory (www.TEL.unl.edu). This project is supported by the US Federal Railroad Administration (FRA) under the direction of Tarek Omar. 
+\bibliographystyle{asmems4}
+\bibliography{asme2e}
+\end{document}
